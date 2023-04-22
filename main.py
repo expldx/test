@@ -92,7 +92,7 @@ class Model(nn.Module):
         out = self.layer2(out)
         return out
 
-
+print()
 # 参数检查
 model = Model()
 numel_list = [p.numel() for p in model.parameters()]
